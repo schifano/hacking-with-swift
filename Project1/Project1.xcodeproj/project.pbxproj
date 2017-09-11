@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2928AEAA1F6659CE00C83BB3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2928AEA81F6659CE00C83BB3 /* DetailViewController.swift */; };
+		2928AEAB1F6659CE00C83BB3 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2928AEA91F6659CE00C83BB3 /* DetailViewController.xib */; };
 		29E1F8231F65E15700DF7BD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1F8221F65E15700DF7BD8 /* AppDelegate.swift */; };
 		29E1F8251F65E15700DF7BD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E1F8241F65E15700DF7BD8 /* ViewController.swift */; };
 		29E1F8281F65E15700DF7BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29E1F8261F65E15700DF7BD8 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2928AEA81F6659CE00C83BB3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2928AEA91F6659CE00C83BB3 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		29E1F81F1F65E15700DF7BD8 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E1F8221F65E15700DF7BD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29E1F8241F65E15700DF7BD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 			children = (
 				29E1F8221F65E15700DF7BD8 /* AppDelegate.swift */,
 				29E1F8241F65E15700DF7BD8 /* ViewController.swift */,
+				2928AEA81F6659CE00C83BB3 /* DetailViewController.swift */,
+				2928AEA91F6659CE00C83BB3 /* DetailViewController.xib */,
 				29E1F8261F65E15700DF7BD8 /* Main.storyboard */,
 				29E1F8291F65E15700DF7BD8 /* Assets.xcassets */,
 				29E1F82B1F65E15700DF7BD8 /* LaunchScreen.storyboard */,
@@ -171,6 +177,7 @@
 				29E1F8441F65E2C100DF7BD8 /* nssl0046.jpg in Resources */,
 				29E1F8451F65E2C100DF7BD8 /* nssl0049.jpg in Resources */,
 				29E1F8411F65E2C100DF7BD8 /* nssl0042.jpg in Resources */,
+				2928AEAB1F6659CE00C83BB3 /* DetailViewController.xib in Resources */,
 				29E1F82A1F65E15700DF7BD8 /* Assets.xcassets in Resources */,
 				29E1F8471F65E2C100DF7BD8 /* nssl0091.jpg in Resources */,
 				29E1F8401F65E2C100DF7BD8 /* nssl0041.jpg in Resources */,
@@ -185,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2928AEAA1F6659CE00C83BB3 /* DetailViewController.swift in Sources */,
 				29E1F8251F65E15700DF7BD8 /* ViewController.swift in Sources */,
 				29E1F8231F65E15700DF7BD8 /* AppDelegate.swift in Sources */,
 			);
@@ -352,6 +360,7 @@
 				29E1F8331F65E15700DF7BD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
