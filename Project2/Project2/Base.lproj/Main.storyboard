@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,27 +21,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Vm-FO-njL">
-                                <rect key="frame" x="136" y="283" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5w-MG-ZPW">
+                                <rect key="frame" x="87.5" y="142" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1l-lk-caR">
-                                <rect key="frame" x="69" y="425" width="200" height="100"/>
+                                <rect key="frame" x="87.5" y="425" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5w-MG-ZPW">
-                                <rect key="frame" x="51" y="142" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Vm-FO-njL">
+                                <rect key="frame" x="87.5" y="283" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="c1l-lk-caR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="361" id="JwJ-pT-Hms"/>
+                            <constraint firstItem="9Vm-FO-njL" firstAttribute="top" secondItem="e5w-MG-ZPW" secondAttribute="bottom" constant="41" id="0ic-9x-v3B"/>
+                            <constraint firstItem="c1l-lk-caR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6zg-kX-giS"/>
+                            <constraint firstItem="9Vm-FO-njL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CRq-Wl-G38"/>
                             <constraint firstItem="e5w-MG-ZPW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="78" id="TBU-fo-4CN"/>
-                            <constraint firstItem="e5w-MG-ZPW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="WVV-6e-6hL"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9Vm-FO-njL" secondAttribute="trailing" constant="23" id="Y2f-dp-aKz"/>
-                            <constraint firstItem="9Vm-FO-njL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="219" id="mFb-pI-jV6"/>
-                            <constraint firstItem="c1l-lk-caR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="53" id="tVv-sr-wbB"/>
+                            <constraint firstItem="c1l-lk-caR" firstAttribute="top" secondItem="9Vm-FO-njL" secondAttribute="bottom" constant="42" id="cyS-dz-TPn"/>
+                            <constraint firstItem="e5w-MG-ZPW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yOR-dX-109"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4bZ-GM-PnR"/>
