@@ -12,14 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // FileManager
+        let fileManager = FileManager.default
+        guard let path = Bundle.main.resourcePath else {
+            print("There is no resource path")
+            return
+        }
+        if let items = try? fileManager.contentsOfDirectory(atPath: path) {
+            for item in items {
+                if item.hasPrefix("nssl") {
+                    // load item
+                    print(item)
+                }
+            }
+        } else {
+            print("No items at this resource path")
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
